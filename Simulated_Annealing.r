@@ -1,5 +1,5 @@
 #Simulate positions for n=8 sities
-pos <- read.table("optimalTransport.ascii",header=F)
+pos <- read.table("optimaltransport.ascii",header=F)
 p = nrow(pos)
 set.seed(345)
 par(mfrow=c(1,1))
