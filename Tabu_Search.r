@@ -1,5 +1,5 @@
 #Load positions
-pos <- read.table("optimalTransport.ascii",header=F)
+pos <- read.table("optimaltransport.ascii",header=F)
 p = nrow(pos)
 par(mfrow=c(1,1))
 plot(pos)
